@@ -443,7 +443,7 @@ compressible@~2.0.13:
 
 compression@^1.6.0:
   version "1.7.2"
-  resolved "http://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
+  resolved "https://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
   dependencies:
     accepts "~1.3.4"
     bytes "3.0.0"
@@ -1144,13 +1144,6 @@ hexo-fs@^0.2.0:
     escape-string-regexp "^1.0.5"
     graceful-fs "^4.1.4"
 
-hexo-generator-archive@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/hexo-generator-archive/-/hexo-generator-archive-0.1.5.tgz#a979214cdddee2693e0551809c294bedadbb69b3"
-  dependencies:
-    hexo-pagination "0.0.2"
-    object-assign "^2.0.0"
-
 hexo-generator-category@^0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/hexo-generator-category/-/hexo-generator-category-0.1.3.tgz#b9e6a5862530a83bdd7da4c819c1b9f3e4ccb4b2"
@@ -1158,11 +1151,19 @@ hexo-generator-category@^0.1.3:
     hexo-pagination "0.0.2"
     object-assign "^2.0.0"
 
-hexo-generator-index@^0.2.1:
+hexo-generator-index-i18n@^0.2.1:
   version "0.2.1"
-  resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-0.2.1.tgz#9042229fcac79aaf700575da19332bf3f7ee5c5d"
+  resolved "https://registry.yarnpkg.com/hexo-generator-index-i18n/-/hexo-generator-index-i18n-0.2.1.tgz#3bd6280bb47b2fc93eeb48e3905cbe058bbd8401"
   dependencies:
+    hexo-pagination "^0.1.0"
+
+hexo-generator-multilingual-archive@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-multilingual-archive/-/hexo-generator-multilingual-archive-0.2.0.tgz#3740db9a5871eedd66c197bbad4233128c49b48f"
+  dependencies:
+    hexo-multilingual "^0.1.4"
     hexo-pagination "0.0.2"
+    lodash "^3.10.1"
     object-assign "^4.0.1"
 
 hexo-generator-tag@^0.2.0:
@@ -1185,11 +1186,21 @@ hexo-log@^0.2.0:
     chalk "^1.1.1"
     hexo-bunyan "^1.0.0"
 
+hexo-multilingual@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/hexo-multilingual/-/hexo-multilingual-0.1.4.tgz#ca7c88bbc1b29372c3d9f58b0ed27805da006696"
+
 hexo-pagination@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-0.0.2.tgz#8cf470c7db0de5b18a3926a76deb194015df7f2b"
   dependencies:
     utils-merge "^1.0.0"
+
+hexo-pagination@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-0.1.0.tgz#54f0be12e6ae51d1c0a6f0023674ba77ac514ce3"
+  dependencies:
+    object-assign "^4.1.0"
 
 hexo-renderer-ejs@^0.3.1:
   version "0.3.1"
@@ -1738,6 +1749,10 @@ lodash.some@^4.4.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.some/-/lodash.some-4.6.0.tgz#1bb9f314ef6b8baded13b549169b2a945eb68e4d"
 
+lodash@^3.10.1:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+
 lodash@^4.12.0, lodash@^4.13.1, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
@@ -1949,14 +1964,14 @@ mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
     minimist "0.0.8"
 
 moment-timezone@^0.5.14:
-  version "0.5.21"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.21.tgz#3cba247d84492174dbf71de2a9848fa13207b845"
+  version "0.5.37"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.37.tgz#adf97f719c4e458fdb12e2b4e87b8bec9f4eef1e"
   dependencies:
     moment ">= 2.9.0"
 
 "moment@>= 2.9.0", moment@^2.10.6, moment@^2.11.2, moment@^2.19.4:
-  version "2.22.2"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
 
 morgan@^1.6.1:
   version "1.9.0"
